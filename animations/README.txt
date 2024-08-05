@@ -1,3 +1,5 @@
+#swift/animations
+
 // ENGLISH
 Here you can find animations made usign Swift.
 Each project has a README that explains what it is used for.
