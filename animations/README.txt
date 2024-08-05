@@ -1,4 +1,4 @@
-#swift/animations
+# swift/animations
 
 // ENGLISH
 Here you can find animations made usign Swift.
