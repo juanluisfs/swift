@@ -1,3 +1,5 @@
+# Shape Trim Animation
+
 // ENGLISH
 This code is used to animate a Path Object using different keyframes that correspond to the lines that
 conforms that Path. A preview video is shown below:
