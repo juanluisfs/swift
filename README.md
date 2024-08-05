@@ -6,4 +6,4 @@ Here you can find every Swift project that I've made open-source, hoping that at
 // ESPAÑOL
 Aquí puedes encontrar cada uno de los proyectos hechos con Swift que he compartido en su totatlidad, esperando que al menos uno pueda ayudarte a construir más cosas.
 
-- J. L.
+J. L.
