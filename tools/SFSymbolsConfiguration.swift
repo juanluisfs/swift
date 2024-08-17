@@ -5,3 +5,7 @@
 .renderingMode() // Depending of the symbol it could have the next rendering modes: monochrome, hierarchical, palette or multicolor.
                  // Dependiendo del símbolo puede tener los siguientes modos de renderizado: monochrome, hierarchical, palette or multicolor.
 
+// Image Scale
+.imageScale() // Choose the scale of the symbol
+              // Escoger la escala del símbolo
+
