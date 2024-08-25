@@ -34,4 +34,4 @@ struct ContentView: View {
 }
 
 // More about Enums - Más de los Enums
-[Understanding] (url:https://www.swiftyplace.com/blog/understanding-swift-enumeration-enum-with-raw-value-and-associated-values)
+[Understanding Swift Enumeration: Enum with Raw and Associated Values] ([url](www.swiftyplace.com/blog/understanding-swift-enumeration-enum-with-raw-value-and-associated-values))
