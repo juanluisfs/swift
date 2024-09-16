@@ -8,4 +8,4 @@ func compatible() -> Bool {
         default:
             return false
         }
-    }
+}
