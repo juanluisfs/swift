@@ -1,12 +1,8 @@
-import PhotosUI
 import SwiftUI
 
 struct QRGeneration: View {
-    @State var pickerImage: PhotosPickerItem?
     @State var text: String = "https://www.apple.com"
     @State var qr: UIImage?
-    
-    @AppStorage("name") private var name = "John Doe"
     
     var body: some View {
         VStack {
