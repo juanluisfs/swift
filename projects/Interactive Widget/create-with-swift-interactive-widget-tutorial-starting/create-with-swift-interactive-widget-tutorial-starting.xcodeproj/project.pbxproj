@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07DC2CB22CA765160027F9E8 /* WaterCupTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DC2CB12CA765160027F9E8 /* WaterCupTracker.swift */; };
+		07DC2CB42CA7659D0027F9E8 /* CupCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DC2CB32CA7659D0027F9E8 /* CupCounterView.swift */; };
+		07DC2CB82CA767E00027F9E8 /* WaterCupTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DC2CB12CA765160027F9E8 /* WaterCupTracker.swift */; };
+		07DC2CB92CA767E70027F9E8 /* CupCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DC2CB32CA7659D0027F9E8 /* CupCounterView.swift */; };
+		07DC2CC42CA768C50027F9E8 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCCC1FF2BF36F2400F13193 /* WidgetKit.framework */; };
+		07DC2CC52CA768C50027F9E8 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCCC2012BF36F2400F13193 /* SwiftUI.framework */; };
+		07DC2CD22CA768C70027F9E8 /* WaterCupInteractiveWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 07DC2CC32CA768C40027F9E8 /* WaterCupInteractiveWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		07DC2CD72CA769550027F9E8 /* CupCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DC2CB32CA7659D0027F9E8 /* CupCounterView.swift */; };
+		07DC2CD82CA7695F0027F9E8 /* WaterCupTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DC2CB12CA765160027F9E8 /* WaterCupTracker.swift */; };
+		270FE98E2C04D4B100430BDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BCCC2082BF36F2500F13193 /* Assets.xcassets */; };
+		270FE98F2C04D4B400430BDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BCCC2082BF36F2500F13193 /* Assets.xcassets */; };
+		4BCCC1EC2BF36F0A00F13193 /* create_with_swift_interactive_widget_tutorial_startingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCCC1EB2BF36F0A00F13193 /* create_with_swift_interactive_widget_tutorial_startingApp.swift */; };
+		4BCCC1EE2BF36F0A00F13193 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCCC1ED2BF36F0A00F13193 /* ContentView.swift */; };
+		4BCCC1F02BF36F0C00F13193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BCCC1EF2BF36F0C00F13193 /* Assets.xcassets */; };
+		4BCCC1F32BF36F0C00F13193 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BCCC1F22BF36F0C00F13193 /* Preview Assets.xcassets */; };
+		4BCCC2002BF36F2400F13193 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCCC1FF2BF36F2400F13193 /* WidgetKit.framework */; };
+		4BCCC2022BF36F2400F13193 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCCC2012BF36F2400F13193 /* SwiftUI.framework */; };
+		4BCCC20D2BF36F2500F13193 /* WaterWidget-ExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4BCCC1FD2BF36F2400F13193 /* WaterWidget-ExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4BCCC21C2BF3703600F13193 /* WaterTips_Widget_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCCC21A2BF3700600F13193 /* WaterTips_Widget_Extension.swift */; };
+		4BCCC21D2BF3703A00F13193 /* Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCCC2142BF36F5800F13193 /* Tips.swift */; };
+		4BCCC21E2BF3703D00F13193 /* WaterWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCCC2182BF36FBF00F13193 /* WaterWidgetView.swift */; };
+		4BCCC21F2BF3704000F13193 /* WaterTipProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCCC2162BF36F7D00F13193 /* WaterTipProvider.swift */; };
+		4BCCC2202BF3704200F13193 /* WaterEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCCC2122BF36F3B00F13193 /* WaterEntry.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07DC2CD02CA768C70027F9E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BCCC1E02BF36F0A00F13193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07DC2CC22CA768C40027F9E8;
+			remoteInfo = WaterCupInteractiveWidgetExtension;
+		};
+		4BCCC20B2BF36F2500F13193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BCCC1E02BF36F0A00F13193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BCCC1FC2BF36F2400F13193;
+			remoteInfo = "WaterWidget-ExtensionExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4BCCC2112BF36F2500F13193 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				07DC2CD22CA768C70027F9E8 /* WaterCupInteractiveWidgetExtension.appex in Embed Foundation Extensions */,
+				4BCCC20D2BF36F2500F13193 /* WaterWidget-ExtensionExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07DC2CB12CA765160027F9E8 /* WaterCupTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCupTracker.swift; sourceTree = "<group>"; };
+		07DC2CB32CA7659D0027F9E8 /* CupCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupCounterView.swift; sourceTree = "<group>"; };
+		07DC2CB72CA766C80027F9E8 /* create-with-swift-interactive-widget-tutorial-starting.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "create-with-swift-interactive-widget-tutorial-starting.entitlements"; sourceTree = "<group>"; };
+		07DC2CC32CA768C40027F9E8 /* WaterCupInteractiveWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WaterCupInteractiveWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		07DC2CDB2CA769C20027F9E8 /* WaterCupInteractiveWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WaterCupInteractiveWidgetExtension.entitlements; sourceTree = "<group>"; };
+		07DC2CDC2CA769D50027F9E8 /* WaterWidget-ExtensionExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WaterWidget-ExtensionExtension.entitlements"; sourceTree = "<group>"; };
+		4BCCC1E82BF36F0A00F13193 /* create-with-swift-interactive-widget-tutorial-starting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "create-with-swift-interactive-widget-tutorial-starting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCCC1EB2BF36F0A00F13193 /* create_with_swift_interactive_widget_tutorial_startingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = create_with_swift_interactive_widget_tutorial_startingApp.swift; sourceTree = "<group>"; };
+		4BCCC1ED2BF36F0A00F13193 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4BCCC1EF2BF36F0C00F13193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BCCC1F22BF36F0C00F13193 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4BCCC1FD2BF36F2400F13193 /* WaterWidget-ExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WaterWidget-ExtensionExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCCC1FF2BF36F2400F13193 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		4BCCC2012BF36F2400F13193 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		4BCCC2082BF36F2500F13193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BCCC20A2BF36F2500F13193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BCCC2122BF36F3B00F13193 /* WaterEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterEntry.swift; sourceTree = "<group>"; };
+		4BCCC2142BF36F5800F13193 /* Tips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips.swift; sourceTree = "<group>"; };
+		4BCCC2162BF36F7D00F13193 /* WaterTipProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTipProvider.swift; sourceTree = "<group>"; };
+		4BCCC2182BF36FBF00F13193 /* WaterWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterWidgetView.swift; sourceTree = "<group>"; };
+		4BCCC21A2BF3700600F13193 /* WaterTips_Widget_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTips_Widget_Extension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		07DC2CD32CA768C70027F9E8 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 07DC2CC22CA768C40027F9E8 /* WaterCupInteractiveWidgetExtension */;
+		};
+		07DC2CDE2CA76B680027F9E8 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				IncrementCupIntent.swift,
+			);
+			target = 4BCCC1E72BF36F0A00F13193 /* create-with-swift-interactive-widget-tutorial-starting */;
+		};
+		07DC2CDF2CA76B680027F9E8 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				IncrementCupIntent.swift,
+			);
+			target = 4BCCC1FC2BF36F2400F13193 /* WaterWidget-ExtensionExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		07DC2CC62CA768C50027F9E8 /* WaterCupInteractiveWidget */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (07DC2CDE2CA76B680027F9E8 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 07DC2CDF2CA76B680027F9E8 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 07DC2CD32CA768C70027F9E8 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = WaterCupInteractiveWidget; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07DC2CC02CA768C40027F9E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DC2CC52CA768C50027F9E8 /* SwiftUI.framework in Frameworks */,
+				07DC2CC42CA768C50027F9E8 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCCC1E52BF36F0A00F13193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCCC1FA2BF36F2400F13193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCCC2022BF36F2400F13193 /* SwiftUI.framework in Frameworks */,
+				4BCCC2002BF36F2400F13193 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BCCC1DF2BF36F0A00F13193 = {
+			isa = PBXGroup;
+			children = (
+				4BCCC1EA2BF36F0A00F13193 /* create-with-swift-interactive-widget-tutorial-starting */,
+				4BCCC2032BF36F2400F13193 /* WaterWidget-Extension */,
+				07DC2CC62CA768C50027F9E8 /* WaterCupInteractiveWidget */,
+				4BCCC1FE2BF36F2400F13193 /* Frameworks */,
+				4BCCC1E92BF36F0A00F13193 /* Products */,
+				07DC2CDB2CA769C20027F9E8 /* WaterCupInteractiveWidgetExtension.entitlements */,
+				07DC2CDC2CA769D50027F9E8 /* WaterWidget-ExtensionExtension.entitlements */,
+			);
+			sourceTree = "<group>";
+		};
+		4BCCC1E92BF36F0A00F13193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BCCC1E82BF36F0A00F13193 /* create-with-swift-interactive-widget-tutorial-starting.app */,
+				4BCCC1FD2BF36F2400F13193 /* WaterWidget-ExtensionExtension.appex */,
+				07DC2CC32CA768C40027F9E8 /* WaterCupInteractiveWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BCCC1EA2BF36F0A00F13193 /* create-with-swift-interactive-widget-tutorial-starting */ = {
+			isa = PBXGroup;
+			children = (
+				07DC2CB72CA766C80027F9E8 /* create-with-swift-interactive-widget-tutorial-starting.entitlements */,
+				4BCCC1EB2BF36F0A00F13193 /* create_with_swift_interactive_widget_tutorial_startingApp.swift */,
+				4BCCC1ED2BF36F0A00F13193 /* ContentView.swift */,
+				07DC2CB32CA7659D0027F9E8 /* CupCounterView.swift */,
+				07DC2CB12CA765160027F9E8 /* WaterCupTracker.swift */,
+				4BCCC1EF2BF36F0C00F13193 /* Assets.xcassets */,
+				4BCCC1F12BF36F0C00F13193 /* Preview Content */,
+			);
+			path = "create-with-swift-interactive-widget-tutorial-starting";
+			sourceTree = "<group>";
+		};
+		4BCCC1F12BF36F0C00F13193 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4BCCC1F22BF36F0C00F13193 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4BCCC1FE2BF36F2400F13193 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BCCC1FF2BF36F2400F13193 /* WidgetKit.framework */,
+				4BCCC2012BF36F2400F13193 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BCCC2032BF36F2400F13193 /* WaterWidget-Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4BCCC21A2BF3700600F13193 /* WaterTips_Widget_Extension.swift */,
+				4BCCC2142BF36F5800F13193 /* Tips.swift */,
+				4BCCC2182BF36FBF00F13193 /* WaterWidgetView.swift */,
+				4BCCC2162BF36F7D00F13193 /* WaterTipProvider.swift */,
+				4BCCC2122BF36F3B00F13193 /* WaterEntry.swift */,
+				4BCCC2082BF36F2500F13193 /* Assets.xcassets */,
+				4BCCC20A2BF36F2500F13193 /* Info.plist */,
+			);
+			path = "WaterWidget-Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07DC2CC22CA768C40027F9E8 /* WaterCupInteractiveWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07DC2CD42CA768C70027F9E8 /* Build configuration list for PBXNativeTarget "WaterCupInteractiveWidgetExtension" */;
+			buildPhases = (
+				07DC2CBF2CA768C40027F9E8 /* Sources */,
+				07DC2CC02CA768C40027F9E8 /* Frameworks */,
+				07DC2CC12CA768C40027F9E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				07DC2CC62CA768C50027F9E8 /* WaterCupInteractiveWidget */,
+			);
+			name = WaterCupInteractiveWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = WaterCupInteractiveWidgetExtension;
+			productReference = 07DC2CC32CA768C40027F9E8 /* WaterCupInteractiveWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4BCCC1E72BF36F0A00F13193 /* create-with-swift-interactive-widget-tutorial-starting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCCC1F62BF36F0C00F13193 /* Build configuration list for PBXNativeTarget "create-with-swift-interactive-widget-tutorial-starting" */;
+			buildPhases = (
+				4BCCC1E42BF36F0A00F13193 /* Sources */,
+				4BCCC1E52BF36F0A00F13193 /* Frameworks */,
+				4BCCC1E62BF36F0A00F13193 /* Resources */,
+				4BCCC2112BF36F2500F13193 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BCCC20C2BF36F2500F13193 /* PBXTargetDependency */,
+				07DC2CD12CA768C70027F9E8 /* PBXTargetDependency */,
+			);
+			name = "create-with-swift-interactive-widget-tutorial-starting";
+			productName = "create-with-swift-interactive-widget-tutorial-starting";
+			productReference = 4BCCC1E82BF36F0A00F13193 /* create-with-swift-interactive-widget-tutorial-starting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BCCC1FC2BF36F2400F13193 /* WaterWidget-ExtensionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCCC20E2BF36F2500F13193 /* Build configuration list for PBXNativeTarget "WaterWidget-ExtensionExtension" */;
+			buildPhases = (
+				4BCCC1F92BF36F2400F13193 /* Sources */,
+				4BCCC1FA2BF36F2400F13193 /* Frameworks */,
+				4BCCC1FB2BF36F2400F13193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WaterWidget-ExtensionExtension";
+			productName = "WaterWidget-ExtensionExtension";
+			productReference = 4BCCC1FD2BF36F2400F13193 /* WaterWidget-ExtensionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BCCC1E02BF36F0A00F13193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					07DC2CC22CA768C40027F9E8 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					4BCCC1E72BF36F0A00F13193 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					4BCCC1FC2BF36F2400F13193 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 4BCCC1E32BF36F0A00F13193 /* Build configuration list for PBXProject "create-with-swift-interactive-widget-tutorial-starting" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BCCC1DF2BF36F0A00F13193;
+			productRefGroup = 4BCCC1E92BF36F0A00F13193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BCCC1E72BF36F0A00F13193 /* create-with-swift-interactive-widget-tutorial-starting */,
+				4BCCC1FC2BF36F2400F13193 /* WaterWidget-ExtensionExtension */,
+				07DC2CC22CA768C40027F9E8 /* WaterCupInteractiveWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07DC2CC12CA768C40027F9E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCCC1E62BF36F0A00F13193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCCC1F32BF36F0C00F13193 /* Preview Assets.xcassets in Resources */,
+				270FE98E2C04D4B100430BDC /* Assets.xcassets in Resources */,
+				4BCCC1F02BF36F0C00F13193 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCCC1FB2BF36F2400F13193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270FE98F2C04D4B400430BDC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07DC2CBF2CA768C40027F9E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DC2CD72CA769550027F9E8 /* CupCounterView.swift in Sources */,
+				07DC2CD82CA7695F0027F9E8 /* WaterCupTracker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCCC1E42BF36F0A00F13193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCCC1EE2BF36F0A00F13193 /* ContentView.swift in Sources */,
+				07DC2CB82CA767E00027F9E8 /* WaterCupTracker.swift in Sources */,
+				07DC2CB92CA767E70027F9E8 /* CupCounterView.swift in Sources */,
+				4BCCC1EC2BF36F0A00F13193 /* create_with_swift_interactive_widget_tutorial_startingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCCC1F92BF36F2400F13193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCCC21F2BF3704000F13193 /* WaterTipProvider.swift in Sources */,
+				07DC2CB22CA765160027F9E8 /* WaterCupTracker.swift in Sources */,
+				4BCCC21C2BF3703600F13193 /* WaterTips_Widget_Extension.swift in Sources */,
+				4BCCC2202BF3704200F13193 /* WaterEntry.swift in Sources */,
+				07DC2CB42CA7659D0027F9E8 /* CupCounterView.swift in Sources */,
+				4BCCC21E2BF3703D00F13193 /* WaterWidgetView.swift in Sources */,
+				4BCCC21D2BF3703A00F13193 /* Tips.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07DC2CD12CA768C70027F9E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07DC2CC22CA768C40027F9E8 /* WaterCupInteractiveWidgetExtension */;
+			targetProxy = 07DC2CD02CA768C70027F9E8 /* PBXContainerItemProxy */;
+		};
+		4BCCC20C2BF36F2500F13193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BCCC1FC2BF36F2400F13193 /* WaterWidget-ExtensionExtension */;
+			targetProxy = 4BCCC20B2BF36F2500F13193 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07DC2CD52CA768C70027F9E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WaterCupInteractiveWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L6L2S3J99;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WaterCupInteractiveWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WaterCupInteractiveWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jlfs.create-with-swift-interactive-widget-tutorial-starting.WaterCupInteractiveWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07DC2CD62CA768C70027F9E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WaterCupInteractiveWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L6L2S3J99;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WaterCupInteractiveWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WaterCupInteractiveWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jlfs.create-with-swift-interactive-widget-tutorial-starting.WaterCupInteractiveWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BCCC1F42BF36F0C00F13193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BCCC1F52BF36F0C00F13193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BCCC1F72BF36F0C00F13193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "create-with-swift-interactive-widget-tutorial-starting/create-with-swift-interactive-widget-tutorial-starting.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"create-with-swift-interactive-widget-tutorial-starting/Preview Content\"";
+				DEVELOPMENT_TEAM = 2L6L2S3J99;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Water Tracker";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jlfs.create-with-swift-interactive-widget-tutorial-starting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BCCC1F82BF36F0C00F13193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "create-with-swift-interactive-widget-tutorial-starting/create-with-swift-interactive-widget-tutorial-starting.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"create-with-swift-interactive-widget-tutorial-starting/Preview Content\"";
+				DEVELOPMENT_TEAM = 2L6L2S3J99;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Water Tracker";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jlfs.create-with-swift-interactive-widget-tutorial-starting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BCCC20F2BF36F2500F13193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "WaterWidget-ExtensionExtension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L6L2S3J99;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WaterWidget-Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WaterWidget-Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jlfs.create-with-swift-interactive-widget-tutorial-starting.WaterWidget-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BCCC2102BF36F2500F13193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "WaterWidget-ExtensionExtension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L6L2S3J99;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WaterWidget-Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WaterWidget-Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jlfs.create-with-swift-interactive-widget-tutorial-starting.WaterWidget-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07DC2CD42CA768C70027F9E8 /* Build configuration list for PBXNativeTarget "WaterCupInteractiveWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DC2CD52CA768C70027F9E8 /* Debug */,
+				07DC2CD62CA768C70027F9E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BCCC1E32BF36F0A00F13193 /* Build configuration list for PBXProject "create-with-swift-interactive-widget-tutorial-starting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCCC1F42BF36F0C00F13193 /* Debug */,
+				4BCCC1F52BF36F0C00F13193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BCCC1F62BF36F0C00F13193 /* Build configuration list for PBXNativeTarget "create-with-swift-interactive-widget-tutorial-starting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCCC1F72BF36F0C00F13193 /* Debug */,
+				4BCCC1F82BF36F0C00F13193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BCCC20E2BF36F2500F13193 /* Build configuration list for PBXNativeTarget "WaterWidget-ExtensionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCCC20F2BF36F2500F13193 /* Debug */,
+				4BCCC2102BF36F2500F13193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BCCC1E02BF36F0A00F13193 /* Project object */;
+}
