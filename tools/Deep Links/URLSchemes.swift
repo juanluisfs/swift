@@ -1,7 +1,9 @@
-Facebook:    fb://
-Twitter:     twitter://
-Instagram:   instagram://
-Snapchat:    snapchat://
+App             Deep Link
+- - - - - - - - - - - - - - - - -
+Facebook:       fb://
+Twitter:        twitter://
+Instagram:      instagram://
+Snapchat:       snapchat://
 LinkedIn:    linkedin://
 WhatsApp:    whatsapp://
 Telegram:    tg://
