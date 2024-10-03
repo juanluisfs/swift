@@ -1,3 +1,5 @@
+App             Deep Link
+- - - - - - - - - - - - - - - - -
 WeChat:         weixin://
 Alipay:         alipay://
 Douyin:         douyin://
