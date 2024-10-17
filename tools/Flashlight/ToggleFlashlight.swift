@@ -1,3 +1,5 @@
+% Call this function to toggle the flashlight
+% Ejecuta esta función para activar/desactivar la linterna
 func toggleFlash() {
     let device = AVCaptureDevice.defaultDeviceWithMediaType(AVMediaTypeVideo)
     if (device.hasTorch) {
