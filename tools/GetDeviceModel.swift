@@ -1,4 +1,4 @@
-//
+// Add extension, call UIDevice.model and receive the model in a String
 //
 extension UIDevice {
 
