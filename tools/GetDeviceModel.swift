@@ -1,3 +1,4 @@
+//
 extension UIDevice {
 
     static let modelName: String = {
