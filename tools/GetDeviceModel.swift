@@ -1,5 +1,5 @@
 // Add extension, call UIDevice.model and receive the model in a String
-//
+// Añade la extensión, llama UIDevice.model y recibe el modelo en un String
 extension UIDevice {
 
     static let modelName: String = {
