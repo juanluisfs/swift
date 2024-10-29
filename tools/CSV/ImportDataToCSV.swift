@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  GenerateCSV
-//
-//  Created by Juan Luis on 29/10/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
