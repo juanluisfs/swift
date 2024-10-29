@@ -21,9 +21,9 @@ struct ContentView: View {
     
     func generateCSV() -> URL {
         var fileURL: URL!
-        // heading of CSV file.
+        // Heading of CSV file - Encabezado del archivo CSV
         let heading = "Day, Expense\n"
-        // file rows
+        // File rows - Filas del archivo
         let rows = tripData.map { "\($0.day),\($0.expense)" }
         // rows to string data
         let stringData = heading + rows.joined(separator: "\n")
@@ -33,7 +33,7 @@ struct ContentView: View {
                                                    appropriateFor: nil,
                                                    create: false)
             fileURL = path.appendingPathComponent("Trip-Data.csv")
-            // append string data to file
+            // Append string data to file - Agregar datos de String al archivo
             try stringData.write(to: fileURL, atomically: true , encoding: .utf8)
             print(fileURL!)
         } catch {
