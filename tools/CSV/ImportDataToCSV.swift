@@ -18,7 +18,6 @@ struct ContentView: View {
         .padding()
     }
     
-    
     func generateCSV() -> URL {
         var fileURL: URL!
         // Heading of CSV file - Encabezado del archivo CSV
