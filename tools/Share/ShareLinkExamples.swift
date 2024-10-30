@@ -28,8 +28,8 @@ ShareLink(
 }
 
 ShareLink(
-  item: generateCSV(),
-  preview: SharePreview("GEnCSV.csv", image: Image("swift"))
+  item: URL(string: "https://www.google.com")!,
+  preview: SharePreview("Shared Link", image: Image("Image"))
 ) {
-  Label("Export CSV", systemImage: "list.bullet.rectangle.portrait")
+  Label("Share Link", systemImage: "square.and.arrow.up")
 }
