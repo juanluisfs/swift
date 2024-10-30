@@ -26,3 +26,10 @@ ShareLink(
     Image(systemName: "link")
   }
 }
+
+ShareLink(
+  item: generateCSV(),
+  preview: SharePreview("GEnCSV.csv", image: Image("swift"))
+) {
+  Label("Export CSV", systemImage: "list.bullet.rectangle.portrait")
+}
