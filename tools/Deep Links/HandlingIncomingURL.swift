@@ -1,4 +1,5 @@
 /// Handles the incoming URL and performs validations before acknowledging.
+/// Maneja los URL entrantes y ejecuta validaciones antes de actuar.
     private func handleIncomingURL(_ url: URL) {
         guard url.scheme == "yourapp" else {
             return
