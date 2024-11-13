@@ -3,5 +3,5 @@ enum Flavor: String, CaseIterable, Identifiable {
     case vanilla
     case strawberry
 
-    var id: String { self.rawValue }
+    var id: Flavor { self }
 }
