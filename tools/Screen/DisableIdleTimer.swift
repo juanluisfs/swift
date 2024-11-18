@@ -1,0 +1,1 @@
+UIApplication.shared.isIdleTimerDisabled = true
