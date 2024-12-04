@@ -8,4 +8,4 @@ Each project has a README that explains what it is used for.
 Aquí puedes encontrar animaciones hechas con Swift. 
 Cada proyecto tiene un archivo README que explica para qué se utiliza.
 
-J. L
+J.
