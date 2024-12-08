@@ -72,4 +72,23 @@ fileprivate struct _ScreenshotPreventHelper<Content: View>: UIViewRepresentable 
     
 }
 
+struct HideWithScreenshot: ViewModifier {
+    @State private var size: CGSize?
 
+    func body(content: Content) -> some View {
+        PreventView {
+            ZStack {
+                content
+                    .background(
+                        GeometryReader { proxy in
+                            Color.clear
+                                .onAppear {
+                                    size = proxy.size
+                                }
+                        }
+                    )
+            }
+        }
+        .frame(width: size?.width, height: size?.height)
+    }
+}
