@@ -92,3 +92,9 @@ struct HideWithScreenshot: ViewModifier {
         .frame(width: size?.width, height: size?.height)
     }
 }
+
+extension View {
+    func hideWithScreenshot() -> some View {
+        modifier(HideWithScreenshot())
+    }
+}
