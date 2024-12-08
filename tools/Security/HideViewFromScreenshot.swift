@@ -38,3 +38,38 @@ struct PreventView<Content: View>: View {
     }
     
 }
+
+fileprivate struct SizeKey: PreferenceKey {
+    
+    static var defaultValue: CGSize = .zero
+    
+    static func reduce(value: inout CGSize, nextValue: () -> CGSize) {
+        value = nextValue()
+    }
+    
+}
+
+fileprivate struct _ScreenshotPreventHelper<Content: View>: UIViewRepresentable {
+    
+    @Binding var hostingController: UIHostingController<Content>?
+    
+    func makeUIView(context: Context) -> UIView {
+        let secureField = UITextField()
+        secureField.isSecureTextEntry = true
+        if let textLayoutView = secureField.subviews.first {
+            return textLayoutView
+        }
+        return UIView()
+    }
+    
+    func updateUIView(_ uiView: UIView, context: Context) {
+        /// Adding hosting view as a Subview to the TextLayout View
+        if let hostingController, !uiView.subviews.contains(where: { $0.tag == 1009 }) {
+            /// Adding hosting controller for one time
+            uiView.addSubview(hostingController.view)
+        }
+    }
+    
+}
+
+
