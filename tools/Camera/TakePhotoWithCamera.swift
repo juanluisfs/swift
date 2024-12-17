@@ -27,7 +27,6 @@ struct ContentView: View {
 
 
 struct accessCameraView: UIViewControllerRepresentable {
-    
     @Binding var selectedImage: UIImage?
     @Environment(\.presentationMode) var isPresented
     
