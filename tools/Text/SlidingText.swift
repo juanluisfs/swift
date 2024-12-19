@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct DemoSlideText: View {
+    
     let text = "Lorem ipsum dolor sit amet, consetetur sadipsing elitr, sed diam nonumy eirmod tempor"
     
     @State private var go = false
