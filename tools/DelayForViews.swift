@@ -5,5 +5,3 @@ DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
     self.minusTap.toggle()
   }
 }
-
-123
