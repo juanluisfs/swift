@@ -9,4 +9,4 @@ extension String {
 let string = "Hey!"
 let thirdCharacter = string[2]
 
-nenrkrk
+nenr
