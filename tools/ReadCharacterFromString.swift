@@ -8,3 +8,5 @@ extension String {
 // Way of use - Modo de uso
 let string = "Hey!"
 let thirdCharacter = string[2]
+
+nenrkrk
