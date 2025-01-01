@@ -1,1 +1,1 @@
-// Resize imag
+// Res
