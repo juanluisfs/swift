@@ -257,8 +257,13 @@ struct SignatureView: View {
     }
     
     func undoLastStroke() {
-        guard let last = undoneStrokes.popLast() else { return }
-        undoneStrokes.append(last)
+        //guard let last = undoneStrokes.popLast() else { return }
+        //undoneStrokes.append(last)
+        if !strokes.isEmpty {
+            undoneStrokes.append(strokes.last!)
+            
+            strokes.removeLast()
+        }
     }
     
     func redoLastStrokes() {
