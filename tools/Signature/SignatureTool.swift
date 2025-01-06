@@ -1,10 +1,3 @@
-//
-//  SignatureView.swift
-//  GenerateCSV
-//
-//  Created by Juan Luis on 04/01/25.
-//
-
 import Foundation
 import SwiftUI
 
