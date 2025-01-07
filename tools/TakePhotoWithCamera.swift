@@ -60,3 +60,6 @@ class Coordinator: NSObject, UINavigationControllerDelegate, UIImagePickerContro
 #Preview {
     ContentView()
 }
+
+
+jejjekek
