@@ -1,0 +1,5 @@
+Circle()
+  .strokeBorder(.blue.opacity(0.25), lineWidth: 70)
+  .strokeBorder(.blue.opacity(0.5), lineWidth: 50)
+  .strokeBorder(.blue.opacity(0.75), lineWidth: 30)
+  .strokeBorder(.blue, lineWidth: 10)
