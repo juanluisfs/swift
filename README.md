@@ -1,6 +1,6 @@
 # Swift
 
-jckcickc
+jck
 
 // English
 
