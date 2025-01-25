@@ -1,7 +1,6 @@
 # Swift
 
-jejtjj
-
+je
 
 // English
 
