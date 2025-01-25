@@ -1,7 +1,5 @@
 # Swift
 
-je
-
 // English
 
 This repository serves as an open-source archive of Swift files developed for various purposes. Each file or script is designed to address a specific problem or task using Swift, covering a wide range of topics and applications. The goal of this repository is to provide a centralized location for all my open-source Swift projects and scripts, making them easily accessible to the community.
