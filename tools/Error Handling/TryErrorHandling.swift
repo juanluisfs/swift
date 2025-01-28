@@ -1,7 +1,4 @@
-func updatingSomething(_ card: CardData) {
-        // Edite the item Data
-        
-        
+func updatingSomething(_ something: somethingData){
         do {
             try context.save()
         } catch {
