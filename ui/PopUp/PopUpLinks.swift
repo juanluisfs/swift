@@ -1,5 +1,3 @@
-import SwiftUI
-
 struct SupportPopUp: View {
     
     @State var show: Bool = true
