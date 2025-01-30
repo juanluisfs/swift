@@ -27,7 +27,7 @@ struct SupportPopUp: View {
                         .padding(.horizontal)
                     
                     Button {
-                        if let url = URL(string: "https://dynamicme.framer.website/support") {
+                        if let url = URL(string: "your url") {
                             show = false
                             UIApplication.shared.open(url)
                         }
@@ -46,7 +46,7 @@ struct SupportPopUp: View {
                     
                     HStack(spacing: 16) {
                         Button {
-                            if let url = URL(string: "https://www.tiktok.com/@dynamicmeapp") {
+                            if let url = URL(string: "your url") {
                                 show = false
                                 UIApplication.shared.open(url)
                             }
@@ -66,7 +66,7 @@ struct SupportPopUp: View {
                         .padding(.top, -8)
                         
                         Button {
-                            if let url = URL(string: "https://x.com/dynamicmeapp") {
+                            if let url = URL(string: "your url") {
                                 show = false
                                 UIApplication.shared.open(url)
                             }
