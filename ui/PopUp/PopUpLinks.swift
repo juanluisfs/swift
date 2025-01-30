@@ -131,7 +131,3 @@ struct SupportPopUp: View {
         }
     }
 }
-
-#Preview {
-    SupportPopUp()
-}
