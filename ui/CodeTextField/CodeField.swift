@@ -1,10 +1,3 @@
-//
-//  VerificationField.swift
-//  CodeTextField
-//
-//  Created by Juan Luis Flores on 01/02/25.
-//
-
 import SwiftUI
 
 enum CodeType: Int, CaseIterable {
