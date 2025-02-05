@@ -5,7 +5,8 @@ List {
         TaskRow()
         TaskRow()
     }
-    
+
+    // Section with Header and Footer
     Section(header: Text("Other tasks"), footer: Text("End")) {
         Text("Row 1")
         Text("Row 2")
