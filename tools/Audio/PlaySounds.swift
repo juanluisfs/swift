@@ -20,6 +20,7 @@ let arrayOfSounds: [SoundModel] = [
     .init(name: "6")
 ]
 
+// To make things easier, just create a function to play from the url
 class SoundPlayer {
     var player: AVAudioPlayer?
     
