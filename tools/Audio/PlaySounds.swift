@@ -43,8 +43,6 @@ struct AudioPlayer: View {
     }
 }
 
-
-
 #Preview {
     AudioPlayer()
 }
