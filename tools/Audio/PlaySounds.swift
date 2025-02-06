@@ -9,6 +9,7 @@ struct SoundModel: Hashable {
     }
 }
 
+// The name of the sound files (must be the same, otherwise it will crash)
 let arrayOfSounds: [SoundModel] = [
     .init(name: "1"),
     .init(name: "2"),
