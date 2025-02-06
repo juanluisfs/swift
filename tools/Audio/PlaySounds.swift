@@ -5,6 +5,7 @@ struct SoundModel: Hashable {
     let name: String
     
     func getURL() -> URL {
+        // You have to set the extension of the audio files here
         return URL(string: Bundle.main.path(forResource: name, ofType: "wav")!)!
     }
 }
