@@ -1,6 +1,6 @@
 import SwiftUI
 
-juvivivkvj
+juviv
 
 struct QRGeneration: View {
     @State var text: String = "https://www.apple.com"
