@@ -1,7 +1,5 @@
 import SwiftUI
 
-juviv
-
 struct QRGeneration: View {
     @State var text: String = "https://www.apple.com"
     @State var qr: UIImage?
