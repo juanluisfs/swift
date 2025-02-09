@@ -2,7 +2,7 @@
 
 
 
-ucucuvkvicc
+ucu
 
 // English
 
