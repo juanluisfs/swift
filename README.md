@@ -2,7 +2,7 @@
 
 
 
-ucucuvkviccgigic
+ucucuvkvicc
 
 // English
 
