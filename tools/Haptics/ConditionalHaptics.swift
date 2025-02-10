@@ -3,3 +3,7 @@
   variableCondition
 })
 
+
+.sensoryFeedback(.impact(weight: .heavy), trigger: trigger, condition: { oldValue, newValue in
+  variableCondition || number == 10
+})
