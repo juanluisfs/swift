@@ -1,10 +1,3 @@
-//
-//  DragGestureView.swift
-//  kard
-//
-//  Created by Juan Luis Flores on 10/02/25.
-//
-
 import SwiftUI
 
 struct DragGestureView: View {
