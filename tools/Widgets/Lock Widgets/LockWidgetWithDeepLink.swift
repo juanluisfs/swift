@@ -48,7 +48,7 @@ struct LockEntryView : View {
                 Text("No Widget Available")
             }
         }
-        .widgetURL(URL(string: "kard://open-card")) // Necessary when .accesoryCircular, in othe
+        .widgetURL(URL(string: "yourdeeplink)) // Necessary when .accesoryCircular, in other sizes you can use it or add a link in the widget
     }
 }
 
@@ -67,7 +67,7 @@ struct KardLockWidget: Widget {
             }
         }
         .supportedFamilies([.accessoryCircular])
-        .configurationDisplayName("Kard Lock Widget")
-        .description("Open your Quick Kard from Lock Screen")
+        .configurationDisplayName("Lock Widget")
+        .description("Open your depp link from Lock Screen")
     }
 }
