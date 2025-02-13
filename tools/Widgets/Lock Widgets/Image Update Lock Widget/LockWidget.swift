@@ -1,4 +1,4 @@
-struct LogoEntryView: View {
+struct EntryView: View {
     var entry: Provider.Entry
     @Environment(\.widgetFamily) private var family
     
@@ -36,16 +36,16 @@ struct LogoEntryView: View {
     }
 }
 
-struct LogoLockWidget: Widget {
+struct LockWidget: Widget {
     let kind: String = "LogoWidget"
 
     var body: some WidgetConfiguration {
         StaticConfiguration(kind: kind, provider: Provider()) { entry in
             if #available(iOS 17.0, *) {
-                LogoEntryView(entry: entry)
+                EntryView(entry: entry)
                     .containerBackground(.fill, for: .widget)
             } else {
-                LogoEntryView(entry: entry)
+                EntryView(entry: entry)
                     .padding()
                     .background()
             }
