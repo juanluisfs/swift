@@ -1,0 +1,4 @@
+RenameButton()
+    .renameAction {
+        // Rename logic
+    }
