@@ -1,10 +1,3 @@
-//
-//  SaveShareView.swift
-//  pruebas
-//
-//  Created by Juan Luis on 25/09/24.
-//
-
 import SwiftUI
 
 struct BaseView: View {
