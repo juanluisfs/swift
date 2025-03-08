@@ -38,7 +38,6 @@ func generateQRCode(from string: String) -> UIImage {
     return UIImage(systemName: "xmark.circle") ?? UIImage()
 }
 
-
 #Preview {
     QRGeneration()
 }
