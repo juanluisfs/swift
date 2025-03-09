@@ -14,6 +14,7 @@ class GlowOverlayViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
+        
         // Ensure the Metal layer's frame and drawable size match the view's bounds.
         vividRenderLayer.frame = view.bounds
         vividRenderLayer.drawableSize = view.bounds.size
