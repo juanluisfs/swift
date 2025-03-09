@@ -1,10 +1,3 @@
-//
-//  Glow.swift
-//  kard
-//
-//  Created by Juan Luis Flores on 08/03/25.
-//
-
 import SwiftUI
 
 class GlowOverlayViewController: UIViewController {
