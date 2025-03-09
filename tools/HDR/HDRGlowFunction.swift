@@ -58,13 +58,11 @@ extension GlowOverlayViewController {
         
         // Create a texture to sample the underlying content if needed
         // This part would require more complex Metal code to sample the view beneath
-        
         let renderPassDescriptor = self.currentFrameBuffer()
         let renderEncoder = commandBuffer?.makeRenderCommandEncoder(descriptor: renderPassDescriptor)
         
         // Here you would set up a shader that enhances brightness
         // For now, we'll use a simple approach with a brighter clear color
-        
         renderEncoder?.endEncoding()
         
         commandBuffer?.present(self.currentDrawable())
