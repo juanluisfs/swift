@@ -17,14 +17,6 @@ struct ImportAndExportSwiftDataApp: App {
     }
 }
 
-
-//
-//  ContentView.swift
-//  ImportAndExportSwiftData
-//
-//  Created by Juan Luis on 17/03/25.
-//
-
 import CryptoKit
 import SwiftData
 import SwiftUI
