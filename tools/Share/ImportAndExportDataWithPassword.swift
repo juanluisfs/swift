@@ -1,10 +1,3 @@
-//
-//  ImportAndExportSwiftDataApp.swift
-//  ImportAndExportSwiftData
-//
-//  Created by Juan Luis on 17/03/25.
-//
-
 import SwiftUI
 
 @main
