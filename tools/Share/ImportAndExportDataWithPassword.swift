@@ -1,4 +1,24 @@
 //
+//  ImportAndExportSwiftDataApp.swift
+//  ImportAndExportSwiftData
+//
+//  Created by Juan Luis on 17/03/25.
+//
+
+import SwiftUI
+
+@main
+struct ImportAndExportSwiftDataApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+                .modelContainer(for: Transaction.self)
+        }
+    }
+}
+
+
+//
 //  ContentView.swift
 //  ImportAndExportSwiftData
 //
