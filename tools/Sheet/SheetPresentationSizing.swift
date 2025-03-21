@@ -1,0 +1,1 @@
+.presentationSizing(.fitted)
