@@ -14,5 +14,3 @@ Este repositorio sirve como un archivero de código abierto para códigos de Swi
 
 .,mdzfnmgv.dbf
 dfs,mgdm,sng
-df,gmsn,.mdsfn
-df.smg.,dmfn
