@@ -1,0 +1,7 @@
+SUBQUERY (
+extensionItems, $extensionItem,
+SUBQUERY (
+$extensionItem.attachments, $attachment,
+ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.vcard"
+).@count >= 1
+).@count > 0
