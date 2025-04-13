@@ -1,8 +1,7 @@
 import SwiftUI
 import UIKit
     
-extension Color: RawRepresentable 
-{
+extension Color: RawRepresentable {
     public init?(rawValue: String) {
         guard let data = Data(base64Encoded: rawValue) else {
             self = .black
@@ -32,10 +31,8 @@ extension Color: RawRepresentable
 
 // How to use it
 @AppStorage("colorkey") var storedColor: Color = .black
-    
-    var body: some View {
-        
+    var body: some View {    
         VStack {
             ColorPicker("Persisted Color Picker", selection: $storedColor, supportsOpacity: true)
         }
-}
+    }
