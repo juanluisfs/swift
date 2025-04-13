@@ -30,6 +30,7 @@ extension Color: RawRepresentable
     }
 }
 
+// How to use it
 @AppStorage("colorkey") var storedColor: Color = .black
     
     var body: some View {
