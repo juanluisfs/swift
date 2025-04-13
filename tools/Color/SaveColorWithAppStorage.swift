@@ -29,3 +29,12 @@ extension Color: RawRepresentable
         }
     }
 }
+
+@AppStorage("colorkey") var storedColor: Color = .black
+    
+    var body: some View {
+        
+        VStack {
+            ColorPicker("Persisted Color Picker", selection: $storedColor, supportsOpacity: true)
+        }
+}
