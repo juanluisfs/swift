@@ -1,0 +1,2 @@
+SheetView()
+  .presentationBackgroundInteraction(.enabled)
