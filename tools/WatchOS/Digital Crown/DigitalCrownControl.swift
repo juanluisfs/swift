@@ -5,6 +5,6 @@ struct ContentView: View {
         Text("Scroll: \(scrollAmount)")
             .focusable(true)
             .digitalCrownRotation($scrollAmount)
-      .digitalCrownRotation($scrollAmount, from: 1, through: 5, by: 0.1, sensitivity: .low, isContinuous: true, isHapticFeedbackEnabled: true)
+            .digitalCrownRotation($scrollAmount, from: 1, through: 5, by: 0.1, sensitivity: .low, isContinuous: true, isHapticFeedbackEnabled: true)
     }
 }
