@@ -13,8 +13,10 @@ struct AppMain: App {
 
 extension UIDevice {
   static var isiPhone: Bool {
+    UIDevice.current.userInterfaceIdiom == .phone
   }
 
   static var isiPad: Bool {
+    UIDevice.current.userInterfaceIdiom == .pad
   }
 }
