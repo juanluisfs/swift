@@ -14,4 +14,7 @@ struct AppMain: App {
 extension UIDevice {
   static var isiPhone: Bool {
   }
+
+  static var isiPad: Bool {
+  }
 }
