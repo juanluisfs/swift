@@ -20,3 +20,5 @@ extension UIDevice {
     UIDevice.current.userInterfaceIdiom == .pad
   }
 }
+
+// To get better results, take into account the split view on iPad
