@@ -10,3 +10,8 @@ struct AppMain: App {
     }
   }
 }
+
+extension UIDevice {
+  static var isiPhone: Bool {
+  }
+}
