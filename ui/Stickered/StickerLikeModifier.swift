@@ -1,10 +1,3 @@
-//
-//  Sticker.swift
-//  HandyFiles
-//
-//  Created by Juan Luis Flores on 22/05/25.
-//
-
 import SwiftUI
 
 struct StrokeModifier: ViewModifier {
