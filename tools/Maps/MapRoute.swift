@@ -11,7 +11,6 @@ struct MapView: View {
     var body: some View {
         ZStack {
             Map(initialPosition: .region(region)) {
-                
                 if let polyline = routePolyline {
                     MapPolyline(polyline)
                         .stroke(Color.blue, lineWidth: 5)
