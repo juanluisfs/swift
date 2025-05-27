@@ -1,10 +1,3 @@
-//
-//  MapView.swift
-//  pruebas
-//
-//  Created by Juan Luis Flores on 26/05/25.
-//
-
 import SwiftUI
 import MapKit
 
