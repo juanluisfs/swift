@@ -1,0 +1,2 @@
+.presentationDragIndicator(.hidden)
+.presentationDragIndicator(.visible)
