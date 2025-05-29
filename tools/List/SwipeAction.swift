@@ -7,6 +7,7 @@
   .tint(.red)
 }
 
+// Swipe Action Depending of the Swipe Direction
 .swipeActions(edge: .leading) {
   Button {
     //
