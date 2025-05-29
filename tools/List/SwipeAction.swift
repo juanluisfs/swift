@@ -6,3 +6,19 @@
   }
   .tint(.red)
 }
+
+.swipeActions(edge: .leading) {
+                            Button {
+                                total += i
+                            } label: {
+                                Label("Add \(i)", systemImage: "plus.circle")
+                            }
+                            .tint(.indigo)
+                        }
+                        .swipeActions(edge: .trailing) {
+                            Button {
+                                total -= i
+                            } label: {
+                                Label("Subtract \(i)", systemImage: "minus.circle")
+                            }
+                        }
