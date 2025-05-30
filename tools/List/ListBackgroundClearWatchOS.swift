@@ -3,4 +3,6 @@
 
 // Add a view as the background of the element
 .listRowBackground(RoundedRectangle(cornerRadius: 20).foregroundStyle(.white))
+
+// Change the color of the platter
 .listRowPlatterColor(.white)
