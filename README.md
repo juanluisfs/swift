@@ -12,3 +12,6 @@ Este repositorio sirve como un archivero de código abierto para códigos de Swi
 
 ¡Siéntete libre de explorar, modificar y contribuir al repositorio con atribución!
 
+jek
+jrk
+urir
