@@ -14,7 +14,6 @@ struct GaugeProgressStyle: ProgressViewStyle {
     }
 }
 
-// A view letting you adjust the progress with tap gestures
 struct ContentView: View {
     @State private var progress = 0.2
 
