@@ -18,7 +18,7 @@ Button {
                             switch result {
                             case .success(let url):
                                 print(url)
-                                //use `url.startAccessingSecurityScopedResource()` if you are going to read the data
+                                
                                 let accessGranted = url.startAccessingSecurityScopedResource()
                                 
                                 if accessGranted {
