@@ -52,3 +52,33 @@ extension DataSchemaV2 {
         }
     }
 }
+
+enum DataSchemaV3: VersionedSchema {
+    static var models: [any PersistentModel.Type] {
+        [DataItem.self]
+    }
+    
+    static var versionIdentifier: Schema.Version = .init(1, 0, 2)
+}
+
+extension DataSchemaV3 {
+    @Model
+    class DataItem: Identifiable {
+        
+        var id: String
+        var name: String
+        var date: Date
+        var text: String = ""
+        
+        @Attribute(.externalStorage)
+        var image: Data?
+        
+        init(name: String, date: Date, text: String) {
+            self.id = UUID().uuidString
+            self.name = name
+            self.date = date
+            self.text = text
+        }
+    }
+}
+
