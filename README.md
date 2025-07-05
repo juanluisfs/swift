@@ -14,4 +14,3 @@ Este repositorio sirve como un archivero de código abierto para códigos de Swi
 
 gdf
 te
-sdfg
