@@ -1,0 +1,1 @@
+.colorMultiply(Color)
